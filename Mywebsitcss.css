@@ -1,0 +1,616 @@
+*{
+font-family: Bookman Old Style,Elephant,Ravie;
+margin:0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+width:100%;
+background-color:#f0f0f0;
+position:fixed;
+z-index:999;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:10px 200px;
+}
+
+.Myicon{
+font-family: Arial Rounded MT Bold,Elephant,Ravie;
+text-decoration: none;
+color: #3a6cf4;
+text-transform: uppercase;
+font-weight:700;
+font-size:1.8em;
+}
+
+.navagtion a{
+display: inline-block;
+text-decoration: none;
+color : #3a6cf1;
+text-transform: uppercase;
+font-weight:500;
+font-size:1.1em;
+margin-left:30px;
+}
+
+.navagtion a:hover {
+color : #601cfc;
+font-size:1.1em;
+}
+
+section{
+padding:80px 200px;
+}
+
+.main {
+width: 100%;
+min-height:100vh;
+display: flex;
+align-items: center;
+background: url("imge/dds.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment:fixed;
+}
+.main h2{
+font-family: Stencil,Engravers MT;
+color:#fff;
+font-size:7em;
+font-weight:500;
+}
+.main span{
+display: inline-block;
+color:#f04053;
+font-size: 1.4em;
+font-weight:500;
+margin-right:50px;
+}
+.main h3{
+color:#3a6cff;
+font-size:3em;
+font-weight:500;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.mian-but{
+display:inline-block;
+background:#3a6cff;
+color:#fff;
+border-radius:15px;
+padding:10px;
+text-decoration:none;
+transition: 0.7s ease;
+margin-bottom:30px;
+}
+.mian-but:hover {
+background:#0a49f6;
+transform: scale(1.1);
+}
+.midaicon a{
+display:inline-block;
+width: 50px;
+height:50px;
+margin-right: 25px;
+transition: 0.7s ease;
+}
+.twitter {
+    background: url("imge/twitter.png") no-repeat;
+    background-size: cover;
+}
+.face {
+    background: url("imge/face.png") no-repeat;
+    background-size: cover;
+}
+.snap {
+    background: url("imge/snap.png") no-repeat;
+    background-size: cover;
+}
+.inst {
+    background: url("imge/inst.png") no-repeat;
+    background-size: cover;
+}
+.whats {
+    background: url("imge/whatsApp.png") no-repeat;
+    background-size: cover;
+}
+.midaicon a:hover {
+    transform: rotate(20deg);
+}
+
+.title
+{
+display: flex;
+justify-content: center;
+color: #3a6cff;
+font-size: 2.4em;
+font-weight:800;
+margin-bottom:30px;
+}
+.content
+{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.card
+{
+background-color: #fff;
+width:21.25em;
+box-shadow: 0 5px 25px rgba(1 1 1/15%);
+border-radius:10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.iconcard a{
+display: flex;
+justify-content:center;
+width: 230px;
+height:230px;
+margin-left:30px;
+}
+
+.logo{
+background: url("imge/iconlogo.png") no-repeat;
+background-size: cover;
+}
+.photo{
+background: url("imge/iconphoto.png") no-repeat;
+background-size: cover;
+}
+.vedio{
+background: url("imge/vicon.png") no-repeat;
+background-size: cover;
+}
+.card:hover
+{
+transform: scale(1.1);
+}
+.info
+{
+text-align:center;
+}
+
+.info h3{
+color: #3a6cff;
+font-size: 1.2em;
+font-weight:700;
+margin:10px;
+}
+
+.info h3:hover{
+color: #ffa700;
+}
+
+.partDocuments
+{
+background-color:#000;
+}
+
+.partDocuments .content
+{
+margin-top :30px;
+}
+.Doccard
+{
+background-color: #fff;
+border:1px solid #fff;
+min-hieght:14em;
+width:20em;
+overflow: hidden;
+border-radius:10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+.Doccard:hover
+{
+transform: scale(1.1);
+}
+
+.Docimaj img
+{
+width: 100%;
+
+}
+.Doccard:hover .Docimaj img
+{
+opacity: 0.9;
+}
+
+.Docinfo
+{
+margin: 1em;
+}
+
+.Doccatg
+{
+font-size: 0.8em;
+color:#000;
+}
+
+.Doctitle
+{
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+font-weight:800;
+margin-top: 20px;
+}
+.opendoc
+{
+text-decoration: none;
+color : #3a6cf1;
+}
+
+.opendoc:hover {
+color : #601cfc;
+font-size:1.1em;
+}
+
+.content-tell {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .content-tell .card {
+        border-radius: 100px;
+        width: 20em;
+        height: 20em;
+       
+    }
+        .content-tell .card a {
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+            margin-left: 30px;
+        }
+
+.phone {
+    background: url("imge/phone.png") no-repeat;
+    background-size: cover;
+}
+.email {
+    background: url("imge/email2.png") no-repeat;
+    background-size: cover;
+}
+.footer {
+    background-color: #000;
+    display: flex;
+    /*justify-content:space-between;*/
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+    .footer p {
+        color: white;
+        font-size: 1.2em;
+        font-weight: 800;
+        margin:20px;
+    }
+        .footer p span {
+            color: #3a6cff;
+        }
+
+    .footer a {
+        width: 20px;
+        height: 20px;
+        transition: 0.2s ease;
+    }
+        .footer a:hover {
+            transform: translateY(-10px) scale(.8);
+        }
+@media (max-width:1410px) {
+
+    header {
+        padding: 10px 160px;
+    }
+    
+    .Myicon {
+        font-weight: 600;
+        font-size: 1.7em;      
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 1.1em;
+        margin-left: 10px;
+    }
+
+    section {
+        padding: 60px 100px;
+    }
+        .main h2 {
+            font-size: 4.2em;
+        }
+
+        .main span {
+            font-size: 2.2em;
+            margin-right: 30px;
+        }
+
+        .main h3 {
+            font-size: 2.5em;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+    .midaicon a {
+        width: 40px;
+        height: 40px;
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width:1123px) {
+
+    header {
+        padding: 10px 160px;
+    }
+
+    .Myicon {
+        font-weight: 600;
+        font-size: 1.7em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 1.1em;
+        margin-left: 10px;
+    }
+
+    section {
+        padding: 60px 90px;
+    }
+
+    .main h2 {
+        font-size: 4.1em;
+    }
+
+    .main span {
+        font-size: 2.1em;
+        margin-right: 30px;
+    }
+
+    .main h3 {
+        font-size: 2.3em;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .midaicon a {
+        width: 40px;
+        height: 40px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:1060px) {
+
+    header {
+        padding: 10px 160px;
+    }
+
+    .Myicon {
+        font-weight: 600;
+        font-size: 1.7em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 1.1em;
+        margin-left: 10px;
+    }
+
+    section {
+        padding: 60px 80px;
+    }
+
+    .main h2 {
+        font-size: 4em;
+    }
+
+    .main span {
+        font-size: 2em;
+        margin-right: 30px;
+    }
+
+    .main h3 {
+        font-size: 2.2em;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .midaicon a {
+        width: 40px;
+        height: 40px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:900px) {
+
+    header {
+        padding: 10px 140px;
+    }
+
+    .Myicon {
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 1em;
+        margin-left: 10px;
+    }
+
+    section {
+        padding: 60px 80px;
+    }
+
+    .main h2 {
+        font-size: 3.6em;
+    }
+
+    .main span {
+        font-size: 1.6em;
+        margin-right: 30px;
+    }
+
+    .main h3 {
+        font-size: 1.8em;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .midaicon a {
+        width: 35px;
+        height: 35px;
+        margin-right: 25px;
+    }
+}
+@media (max-width:800px) {
+    header {
+        padding: 10px 70px;
+    }
+
+    .Myicon {
+        font-weight: 600;
+        font-size: 1.4em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 0.9em;
+        margin-left: 8px;
+    }
+
+    section {
+        padding: 60px 80px;
+    }
+    .main {
+        background-size: 100% 100%;
+    }
+        .main h2 {
+        font-size: 3.5em;
+    }
+
+    .main span {
+        font-size: 1.5em;
+        margin-right: 30px;
+    }
+
+    .main h3 {
+        font-size: 1.4em;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .midaicon a {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:640px) {
+    header {
+        padding: 10px 60px;
+    }
+
+    .Myicon {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 0.8em;
+        margin-left: 8px;
+    }
+
+    section {
+        padding: 60px 70px;
+    }
+
+    .main {
+        background-size: 100% 100%;
+    }
+
+        .main h2 {
+            font-size: 3.2em;
+        }
+
+        .main span {
+            font-size: 1.1em;
+            margin-right: 30px;
+        }
+
+        .main h3 {
+            font-size: 1.2em;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+    .midaicon a {
+        width: 25px;
+        height: 25px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:560px) {
+    header {
+        padding: 10px 40px;
+    }
+
+    .Myicon {
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .navagtion a {
+        font-weight: 500;
+        font-size: 0.7em;
+        margin-left: 8px;
+    }
+
+    section {
+        padding: 60px 60px;
+    }
+
+    .main {
+        background-size: 100% 100%;
+    }
+
+        .main h2 {
+            font-size: 2.8em;
+        }
+
+        .main span {
+            font-size: 0.7em;
+            margin-right: 20px;
+        }
+
+        .main h3 {
+            font-size: 0.8em;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+    .midaicon a {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+}
